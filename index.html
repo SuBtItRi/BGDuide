@@ -6,9 +6,10 @@
     <title>Document</title>
 </head>
 <body>
-    <audio src="./audio.mp3"></audio>
-    <img id="myAudio" style="height: 100%;" src="./bg.png"></img>
+    <audio id="myAudio" src="./audio.mp3"></audio>
+    <img style="height: 100%;" src="./bg.png"></img>
     <script>
+        document.getElementById("myAudio").play();
         document.getElementById("myAudio").loop = true;
     </script>
 </body>
